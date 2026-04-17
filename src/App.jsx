@@ -47,6 +47,31 @@ function App() {
         </div>
       </section>
 
+
+      {/* stats section */}
+
+      <section className='h-132 md:h-80 bg-[#8c52ee] flex flex-col justify-center items-center'>
+
+        <h1 className='font-bold text-3xl my-9'>Trusted By Millions, Built For You</h1>
+        <div className='flex flex-col md:flex-row justify-center gap-7 items-center text-center'>
+          <div className='flex flex-col gap-3'>
+            <p>Total Downloads</p>
+            <h2 className='text-5xl font-bold'>29.6M</h2>
+            <p>21% More Than Last Month</p>
+          </div>
+          <div className='flex flex-col gap-3'>
+            <p>Total Reviews</p>
+            <h2 className='text-5xl font-bold'>906K</h2>
+            <p>46% More Than The Last Month</p>
+          </div>
+          <div className='flex flex-col gap-3'>
+            <p>Active Apps</p>
+            <h2 className='text-5xl font-bold'>132+</h2>
+            <p>31 More Will Launch</p>
+          </div>
+        </div>
+      </section>
+
     </>
   )
 }
