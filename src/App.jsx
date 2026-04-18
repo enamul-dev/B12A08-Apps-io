@@ -4,8 +4,7 @@ import appData from "./data/appData";
 import { BrowserRouter as Router, Routes, Route, useNavigate, Link } from "react-router-dom";
 import AppDetails from "./AppDetails";
 import Installation from "./Installation";
-
-
+import AppInstall from "./AppInstall";
 
 
 function Home() {
@@ -13,11 +12,12 @@ function Home() {
 const navigate = useNavigate();
   return (
     <>
+    
       <header>
         <nav className='flex justify-around py-2 bg-white text-black items-center'>
           <div className="logo flex items-center gap-2">
             <h1> 
-              <img className='w-10' src="src/assets/logo.png" alt="logo" />
+              <img className='w-10' src="/assets/logo.png" alt="logo" />
             </h1>
             <h2 className='font-bold'>HERO.IO</h2>
           </div>
@@ -44,7 +44,7 @@ const navigate = useNavigate();
           <p className='text-center text-gray-500'>At HERO.IO we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
           <br />
           <div className='flex gap-2 justify-center'>
-            <button href="https://www.w3schools.com/" target="_blank" className='btn bg-transparent ' > <svg className='w-6 h-6' xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+            <button href="https://www.apple.com/app-store/" target="_blank" className='btn bg-transparent ' > <svg className='w-6 h-6' xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
 viewBox="0 0 466 511.98">
  <g id="Layer_x0020_1">
   <path fill="#EA4335" fill-rule="nonzero" d="M199.9 237.8l-198.5 232.37c7.22,24.57 30.16,41.81 55.8,41.81 11.16,0 20.93,-2.79 29.3,-8.37l0 0 244.16 -139.46 -130.76 -126.35z"/>
@@ -71,9 +71,12 @@ viewBox="0 0 466 511.98">
   <p className='text-center text-gray-400 pb-10'>Explore All Trending Apps on the Market developed by us</p>
   <div className="grid grid-cols-1 md:grid-cols-4 gap-6 px-6 container">
     {appData.slice(0, 8).map(app => (
+      
       <div key={app.id} className="bg-white shadow-md rounded-lg p-5 text-center">
-        <div className="w-80 h-80 mx-auto mb-4 bg-gray-300 rounded"></div>
+        <Link to={`/AppInstall/${app.id}`}>
+        <div className="mx-auto mb-4 bg-gray-300 rounded"><img className="w-full h-full" src={app.image} alt={app.title} /></div>
         <h2 className="text-xl font-bold text-black">{app.title}</h2>
+        </Link>
         <div className='flex justify-between items-center my-4'>
           <p className="mt-2 text-green-700 bg-gray-200 p-2"><i class="fa-solid fa-download"></i> {(app.downloads / 1000000).toFixed(1)}M</p>
         <p className='text-orange-400'><i class="fa-solid fa-star"></i> {app.ratingAvg}</p>
@@ -115,25 +118,6 @@ viewBox="0 0 466 511.98">
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {/* footer */}
 
 
@@ -164,11 +148,13 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />          {/* ✅ Home route */}
+        <Route path="/" element={<Home />} />         
         <Route path="/AppDetails" element={<AppDetails />}
          />
-         <Route path="/Installation" element={<Installation />} /> {/* ✅ AppDetails route */}
+         <Route path="/Installation" element={<Installation />} /> 
+         <Route path="/AppInstall/:id" element={<AppInstall />} />
       </Routes>
+      
     </Router>
   );
 }

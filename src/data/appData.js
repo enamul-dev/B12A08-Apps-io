@@ -1,7 +1,7 @@
 
 const appData = [
   {
-    "image": "https://example.com/app1.png",
+    "image": "/assets/demo-app1.webp",
     "title": "Forest: Focus for Productivity",
     "companyName": "Productive Labs",
     "id": 1,
@@ -19,7 +19,7 @@ const appData = [
     ]
   },
   {
-    "image": "https://example.com/app2.png",
+    "image": "/assets/demo-app2.webp",
     "title": "SmPlan:ToDo List with Reminder",
     "companyName": "Healthify Inc",
     "id": 2,
@@ -37,7 +37,7 @@ const appData = [
     ]
   },
   {
-    "image": "https://example.com/app3.png",
+    "image": "/assets/demo-app3.webp",
     "title": "FLIP - Focus Timer for Study",
     "companyName": "LearnTech",
     "id": 3,
@@ -55,7 +55,7 @@ const appData = [
     ]
   },
   {
-    "image": "https://example.com/app4.png",
+    "image": "/assets/demo-app4.webp",
     "title": "Pomocat - Cute Pomodoro Timer",
     "companyName": "Pixel Studio",
     "id": 4,
@@ -73,7 +73,7 @@ const appData = [
     ]
   },
   {
-    "image": "https://example.com/app5.png",
+    "image": "/assets/demo-app5.webp",
     "title": "Time Planner: Schedule & Tasks",
     "companyName": "SoundWave",
     "id": 5,
@@ -91,7 +91,7 @@ const appData = [
     ]
   },
   {
-    "image": "https://example.com/app6.png",
+    "image": "/assets/demo-app6.webp",
     "title": "Morning Habits - Daily Routine",
     "companyName": "Wander Corp",
     "id": 6,
@@ -109,7 +109,7 @@ const appData = [
     ]
   },
   {
-    "image": "https://example.com/app7.png",
+    "image": "/assets/demo-app4.webp",
     "title": "Focus Plant: Pomodoro Forest",
     "companyName": "FinanceHub",
     "id": 7,
@@ -127,7 +127,7 @@ const appData = [
     ]
   },
   {
-    "image": "https://example.com/app8.png",
+   "image": "/assets/demo-app1.webp",
     "title": "Alarmy - Alarm Clock & Sleep",
     "companyName": "FunPlay",
     "id": 8,
@@ -145,7 +145,7 @@ const appData = [
     ]
   },
   {
-    "image": "https://example.com/app9.png",
+    "image": "/assets/demo-app1.webp",
     "title": "NewsNow",
     "companyName": "Daily Media",
     "id": 9,
@@ -163,7 +163,7 @@ const appData = [
     ]
   },
   {
-    "image": "https://example.com/app10.png",
+    "image": "/assets/demo-app3.webp",
     "title": "WeatherPro",
     "companyName": "SkyTech",
     "id": 10,
@@ -181,7 +181,7 @@ const appData = [
     ]
   },
   {
-    "image": "https://example.com/app11.png",
+    "image": "/assets/demo-app3.webp",
     "title": "ChatSphere",
     "companyName": "Connect Inc",
     "id": 11,
@@ -199,7 +199,7 @@ const appData = [
     ]
   },
   {
-    "image": "https://example.com/app12.png",
+    "image": "/assets/demo-app4.webp",
     "title": "NoteKeeper",
     "companyName": "WriteWell",
     "id": 12,
@@ -217,7 +217,7 @@ const appData = [
     ]
   },
   {
-    "image": "https://example.com/app13.png",
+    "image": "/assets/demo-app5.webp",
     "title": "ShopEasy",
     "companyName": "Retail Hub",
     "id": 13,
@@ -235,7 +235,7 @@ const appData = [
     ]
   },
   {
-    "image": "https://example.com/app14.png",
+    "image": "/assets/demo-app6.webp",
     "title": "MindRelax",
     "companyName": "CalmTech",
     "id": 14,
@@ -253,7 +253,7 @@ const appData = [
     ]
   },
   {
-    "image": "https://example.com/app15.png",
+    "image": "/assets/demo-app2.webp",
     "title": "CodePlay",
     "companyName": "DevWorld",
     "id": 15,
@@ -271,7 +271,7 @@ const appData = [
     ]
   },
   {
-    "image": "https://example.com/app15.png",
+    "image": "/assets/demo-app5.webp",
     "title": "CodePlay",
     "companyName": "DevWorld",
     "id": 15,
@@ -290,7 +290,7 @@ const appData = [
   },
   ,
   {
-    "image": "https://example.com/app15.png",
+    "image": "/assets/demo-app3.webp",
     "title": "CodePlay",
     "companyName": "DevWorld",
     "id": 15,
@@ -309,7 +309,7 @@ const appData = [
   }
   ,
   {
-    "image": "https://example.com/app15.png",
+    "image": "/assets/demo-app6.webp",
     "title": "CodePlay",
     "companyName": "DevWorld",
     "id": 15,
@@ -328,7 +328,7 @@ const appData = [
   }
   ,
   {
-    "image": "https://example.com/app15.png",
+    "image": "/assets/demo-app1.webp",
     "title": "CodePlay",
     "companyName": "DevWorld",
     "id": 15,
@@ -347,7 +347,7 @@ const appData = [
   }
   ,
   {
-    "image": "https://example.com/app15.png",
+    "image": "/assets/demo-app2.webp",
     "title": "CodePlay",
     "companyName": "DevWorld",
     "id": 15,
@@ -366,7 +366,7 @@ const appData = [
   }
   ,
   {
-    "image": "https://example.com/app15.png",
+    "image": "/assets/demo-app5.webp",
     "title": "CodePlay",
     "companyName": "DevWorld",
     "id": 15,
@@ -385,7 +385,7 @@ const appData = [
   }
   ,
   {
-    "image": "https://example.com/app15.png",
+    "image": "/assets/demo-app6.webp",
     "title": "CodePlay",
     "companyName": "DevWorld",
     "id": 15,
@@ -404,7 +404,7 @@ const appData = [
   }
   ,
   {
-    "image": "https://example.com/app15.png",
+    "image": "/assets/demo-app1.webp",
     "title": "CodePlay",
     "companyName": "DevWorld",
     "id": 15,
@@ -422,7 +422,7 @@ const appData = [
     ]
   },
   {
-    "image": "https://example.com/app15.png",
+    "image": "/assets/demo-app2.webp",
     "title": "CodePlay",
     "companyName": "DevWorld",
     "id": 15,

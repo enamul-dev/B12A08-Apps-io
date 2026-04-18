@@ -4,8 +4,8 @@ import React from "react";
 export default function Footer() {
   return (
     <footer>
-      <div className="flex justify-between container py-10">
-        <div className="flex items-center gap-2">
+      <div className="flex justify-between container my-10 py-4">
+        <div className="flex items-center gap-2 ">
           <img className="w-10" src="assets/logo.png" alt="" />
           <h1>Hero.IO</h1>
         </div>

@@ -2,6 +2,7 @@ import React from "react";
 import appData from "./data/appData";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import { Link } from "react-router-dom";
 export default function AppDetails() {
   return (
 <>
@@ -36,8 +37,10 @@ export default function AppDetails() {
   <div className="grid grid-cols-1 md:grid-cols-4 gap-6 px-6 container">  
     {appData.map(app => (
       <div key={app.id} className="bg-white shadow-md rounded-lg p-5 text-center">
-        <div className="w-80 h-80 mx-auto mb-4 bg-gray-300 rounded"></div>
+        <Link to={`/AppInstall/${app.id}`}>
+        <div className="mx-auto mb-4 bg-gray-300 rounded"><img className="w-full h-full" src={app.image} alt={app.title} /></div>
         <h2 className="text-xl font-bold text-black">{app.title}</h2>
+        </Link>
         <div className='flex justify-between items-center my-4'>
           <p className="mt-2 text-green-700 bg-gray-200 p-2"><i class="fa-solid fa-download"></i> {(app.downloads / 1000000).toFixed(1)}M</p>
         <p className='text-orange-400'><i class="fa-solid fa-star"></i> {app.ratingAvg}</p>

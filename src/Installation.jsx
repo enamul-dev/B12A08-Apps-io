@@ -9,9 +9,20 @@ const Installation = () => {
             <Header />
 
 
-            <section className="py-10 bg-gray-100 ">
+            <section className="py-10 bg-gray-100">
   <h1 className="text-3xl font-bold text-center mb-5 text-black">Your Installed Apps</h1>
   <p className='text-center text-gray-400 pb-10'>Explore All Trending Apps on the Market developed by us</p>
+  {/* dropdown */}
+  <div className='container flex justify-between py-5'>
+    <div><h1 className='text-black font-bold text-2xl'>1 Apps Found</h1></div>
+    <div className="dropdown dropdown-bottom dropdown-end ">
+  <div tabIndex={0} role="button" className="btn m-1 bg-gray-100 text-black">Sort By Size <i class="fa-solid fa-angle-down"></i></div>
+  <ul tabIndex="-1" className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+    <li><a>Item 1</a></li>
+    <li><a>Item 2</a></li>
+  </ul>
+</div>
+  </div>
   <div className="grid grid-cols-1 gap-6 px-6 container">
     {appData.slice(0, 3).map(app => (
       <div key={app.id} className="bg-white flex justify-between items-center shadow-md rounded-lg p-5 text-center ">

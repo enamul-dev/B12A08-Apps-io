@@ -1,12 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
+
 export default function Header() {
   return (
     <header>
       <nav className="flex justify-around py-2 bg-white text-black items-center">
         <div className="logo flex items-center gap-2">
           <h1>
-            <img className="w-10" src="assets/logo.png" alt="logo" />
+            <img className="w-10" src="/assets/logo.png" alt="logo" />
           </h1>
           <h2 className="font-bold">HERO.IO</h2>
         </div>
