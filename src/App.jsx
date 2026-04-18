@@ -1,10 +1,16 @@
-import { useState } from 'react'
+import React from "react";
 import './App.css'
 import appData from "./data/appData";
+import { BrowserRouter as Router, Routes, Route, useNavigate, Link } from "react-router-dom";
+import AppDetails from "./AppDetails";
+import Installation from "./Installation";
 
-function App() {
-  const [count, setCount] = useState(0)
 
+
+
+function Home() {
+  
+const navigate = useNavigate();
   return (
     <>
       <header>
@@ -16,11 +22,11 @@ function App() {
             <h2 className='font-bold'>HERO.IO</h2>
           </div>
           <div>
-            <ul className='flex gap-4 font-bold'>
-              <li>Home</li>
-              <li>Apps</li>
-              <li>Installation</li>
-            </ul>
+            <ul className="flex gap-4 font-bold">
+                        <li><Link to="/">Home</Link></li>
+                        <li > <Link to="/AppDetails">Apps</Link></li>
+                        <li><Link to="/Installation">Installation</Link></li>
+                      </ul>
           </div>
           <div>
             <button className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] px-4 py-2 text-white rounded '><i class="fa-brands fa-github"></i> Contribute</button>
@@ -76,7 +82,12 @@ viewBox="0 0 466 511.98">
       </div>
     ))}
   </div>
+   
 </section>
+<div className='bg-gray-100 flex justify-center py-10'>
+<button  className="btn btn-primary bg-[#8c52ee] border-none" onClick={() => navigate("/AppDetails")}>Show All</button>
+</div>
+
   {/* stats section */}
 
       <section className='h-132 md:h-80 bg-[#8c52ee] flex flex-col justify-center items-center'>
@@ -99,6 +110,7 @@ viewBox="0 0 466 511.98">
             <p>31 More Will Launch</p>
           </div>
         </div>
+       
       </section>
 
 
@@ -148,4 +160,16 @@ viewBox="0 0 466 511.98">
   )
 }
 
-export default App
+export default function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />          {/* ✅ Home route */}
+        <Route path="/AppDetails" element={<AppDetails />}
+         />
+         <Route path="/Installation" element={<Installation />} /> {/* ✅ AppDetails route */}
+      </Routes>
+    </Router>
+  );
+}
+

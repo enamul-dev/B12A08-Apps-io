@@ -269,7 +269,177 @@ const appData = [
       { "name": "4 star", "count": 500 },
       { "name": "5 star", "count": 1070 }
     ]
+  },
+  {
+    "image": "https://example.com/app15.png",
+    "title": "CodePlay",
+    "companyName": "DevWorld",
+    "id": 15,
+    "description": "Learn programming with interactive challenges.",
+    "size": 65,
+    "reviews": 1800,
+    "ratingAvg": 4.7,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1070 }
+    ]
+  },
+  ,
+  {
+    "image": "https://example.com/app15.png",
+    "title": "CodePlay",
+    "companyName": "DevWorld",
+    "id": 15,
+    "description": "Learn programming with interactive challenges.",
+    "size": 65,
+    "reviews": 1800,
+    "ratingAvg": 4.7,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1070 }
+    ]
   }
+  ,
+  {
+    "image": "https://example.com/app15.png",
+    "title": "CodePlay",
+    "companyName": "DevWorld",
+    "id": 15,
+    "description": "Learn programming with interactive challenges.",
+    "size": 65,
+    "reviews": 1800,
+    "ratingAvg": 4.7,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1070 }
+    ]
+  }
+  ,
+  {
+    "image": "https://example.com/app15.png",
+    "title": "CodePlay",
+    "companyName": "DevWorld",
+    "id": 15,
+    "description": "Learn programming with interactive challenges.",
+    "size": 65,
+    "reviews": 1800,
+    "ratingAvg": 4.7,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1070 }
+    ]
+  }
+  ,
+  {
+    "image": "https://example.com/app15.png",
+    "title": "CodePlay",
+    "companyName": "DevWorld",
+    "id": 15,
+    "description": "Learn programming with interactive challenges.",
+    "size": 65,
+    "reviews": 1800,
+    "ratingAvg": 4.7,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1070 }
+    ]
+  }
+  ,
+  {
+    "image": "https://example.com/app15.png",
+    "title": "CodePlay",
+    "companyName": "DevWorld",
+    "id": 15,
+    "description": "Learn programming with interactive challenges.",
+    "size": 65,
+    "reviews": 1800,
+    "ratingAvg": 4.7,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1070 }
+    ]
+  }
+  ,
+  {
+    "image": "https://example.com/app15.png",
+    "title": "CodePlay",
+    "companyName": "DevWorld",
+    "id": 15,
+    "description": "Learn programming with interactive challenges.",
+    "size": 65,
+    "reviews": 1800,
+    "ratingAvg": 4.7,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1070 }
+    ]
+  }
+  ,
+  {
+    "image": "https://example.com/app15.png",
+    "title": "CodePlay",
+    "companyName": "DevWorld",
+    "id": 15,
+    "description": "Learn programming with interactive challenges.",
+    "size": 65,
+    "reviews": 1800,
+    "ratingAvg": 4.7,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1070 }
+    ]
+  },
+  {
+    "image": "https://example.com/app15.png",
+    "title": "CodePlay",
+    "companyName": "DevWorld",
+    "id": 15,
+    "description": "Learn programming with interactive challenges.",
+    "size": 65,
+    "reviews": 1800,
+    "ratingAvg": 4.7,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1070 }
+    ]
+  }
+  
 ]
 
 export default appData;
