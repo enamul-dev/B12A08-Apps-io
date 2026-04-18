@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import appData from "./data/appData";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -48,7 +49,25 @@ function App() {
       </section>
 
 
-      {/* stats section */}
+    
+
+<section className="py-10 bg-gray-100 ">
+  <h1 className="text-3xl font-bold text-center mb-8">Our Apps</h1>
+  <div className="grid grid-cols-1 md:grid-cols-4 gap-6 px-6 container">
+    {appData.slice(0, 8).map(app => (
+      <div key={app.id} className="bg-white shadow-md rounded-lg p-5 text-center">
+        <div className="w-80 h-80 mx-auto mb-4 bg-gray-300 rounded"></div>
+        <h2 className="text-xl font-bold text-black">{app.title}</h2>
+        <div className='flex justify-between items-center my-4'>
+          <p className="mt-2 text-green-700 bg-gray-200 p-2"><i class="fa-solid fa-download"></i> {(app.downloads / 1000000).toFixed(1)}M</p>
+        <p className='text-orange-400'><i class="fa-solid fa-star"></i> {app.ratingAvg}</p>
+        </div>
+        
+      </div>
+    ))}
+  </div>
+</section>
+  {/* stats section */}
 
       <section className='h-132 md:h-80 bg-[#8c52ee] flex flex-col justify-center items-center'>
 
@@ -66,12 +85,55 @@ function App() {
           </div>
           <div className='flex flex-col gap-3'>
             <p>Active Apps</p>
-            <h2 className='text-5xl font-bold'>132+</h2>
+            <h2 className='text-5xl font-bold '>132+</h2>
             <p>31 More Will Launch</p>
           </div>
         </div>
       </section>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* footer */}
+
+
+<footer >
+  <div className='flex justify-between container py-10'>
+    <div className=' flex items-center gap-2'>
+    <img className='w-10 ' src="assets/logo.png " alt="" />
+    <h1>Hero.IO</h1>
+  </div>
+  <div className=''>
+    <h1>Social Links</h1>
+    <span className='flex gap-2'>
+      <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-x-twitter"></i>
+    </span>
+    
+  </div>
+  </div>
+  <hr className='pb-5'/>
+  <span className='block text-center container pb-5'>Copyright © 2025 - All right reserved</span>
+</footer>
     </>
   )
 }
